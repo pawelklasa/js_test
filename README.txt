@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/klasap/pen/GOgejx.
+##This is where I learn new stuff in javaScript
 
  
