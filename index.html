@@ -3,37 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <title>A Pen by  pawel</title>
-  
-  
+
+
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
+
   <title>Issue tracker</title>
+
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
 </nav>
+
 <div class="container" "mx-auto">
 	<div class="row">
-		
 		<div class="col">
 			<div class="input-group">
 				<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
 			</div>
-			
-			<button type="button" class="btn btn-primary" onclick="handlers.print()">Primary</button>
-			<p id="field"></p>
+
+			<button type="button" class="btn btn-primary" onclick="handlers.printName()">Name</button>
+
+            <button type="button" class="btn btn-primary" onclick="handlers.printSurname()">Surname</button>
+
+
+               <div class="card"><h1 id="name"></h1></div>
+               <div class="card"><h1 id="surname"></h1></div>
+
+
 		</div>
-		
-		
-		
 	</div>
 </div>
-  
+
     <script  src="js/index.js"></script>
 
 </body>
