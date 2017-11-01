@@ -19,6 +19,7 @@ var entry = [
   }
 ];
 
+
  var handlers = {
  	printName: function() {
  		var result = document.getElementById("name");
