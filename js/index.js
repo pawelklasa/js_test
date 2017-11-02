@@ -21,12 +21,15 @@ var entry = [
 
 
  var handlers = {
+     
  	printName: function() {
  		var result = document.getElementById("name");
 		//result = entry[0].name;
 		result.innerHTML = entry[0].name;
 		console.log(result.innerHTML);
     },
+
+
 	printSurname: function() {
  		var result = document.getElementById("surname");
 		//result = entry[0].name;
